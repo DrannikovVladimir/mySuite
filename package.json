@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DrannikovVladimir/mySuite.git"
   },
-  "author": "Vladimir Drannikov krowen@inbox.ru",
+  "author": "Vladimir Drannikov 'krowen@inbox.ru'",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DrannikovVladimir/mySuite/issues"
   },
-  "homepage": "https://github.com/DrannikovVladimir/mySuite#readme"
+  "homepage": "https://github.com/DrannikovVladimir/mySuite#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.1.1"
+  }
 }
